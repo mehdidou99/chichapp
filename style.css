@@ -1,10 +1,10 @@
 .banner{
     text-align: center;
     color: white;
-      padding: 150px 0px;
+    padding: 150px 0px;
     background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%), url("images/chicha_en_groupe.jpg");
     background-size: cover;
-      background-position: center;
+    background-position: center;
   }
   .banner h1 {
     font-size: 50px;
@@ -57,20 +57,24 @@ a.try-button:hover{
   }
 
 .footer {
-background-color: black;
-padding: 24px;
-color: white;
+  background-color: black;
+  padding: 24px;
+  color: white;
+  text-align: center;
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%), url("images/chicha_en_groupe.jpg");
+  background-size: cover;
+  background-position: bottom;
 }
   .footer a {
   color: white;
   font-size: 32px;
   }
 
-.list-inline {
+.contact-list {
   list-style: none;
   padding-left: 0px;
 }
-  .list-inline li {
+  .contact-list li {
     display: inline;
     padding: 0px 8px;
   }
